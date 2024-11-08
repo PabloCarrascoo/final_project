@@ -1,8 +1,7 @@
 subroutine numeros(u,num)
 
     implicit none
-
-    integer, dimension (8,10) :: u !declaracion de variable u (uno)
+    integer, dimension (8,10) :: u 
     integer :: num
 
     u = 0 !para cada espacio en la matriz "u" asignamos el valor de 0 
