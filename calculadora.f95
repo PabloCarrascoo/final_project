@@ -1,3 +1,4 @@
 program calculadora
-    implicit none  
+    implicit none
+    print*, "hola mundo"
 end program
