@@ -3,7 +3,6 @@ subroutine mostrar_interfaz()
 character :: a = "-", b = "|", esquina = "+"
 integer :: i, j
 
-
 write(*, "(A)", advance = "no") esquina ! la parte "(A)" sirve para que write sepa que va a 
                                         ! trabajar con un character
 
@@ -57,4 +56,3 @@ write(*, "(A)", advance = "no") esquina
 print*
 
 end subroutine
-
